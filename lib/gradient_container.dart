@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:dice_roller/text_styles.dart';
+
 
 // 'final' keyword affects individual variables, while 'const' affects the entire object or value to which it's applied
+
+// const is a compile time constant -> locked in at time code is compled
+// if const variable were a function, the function must be executed before this code block runs
 const startAlignment = Alignment.topLeft;
+// to use final, the variable must be known at the time this code is compiled
 const endAlignment = Alignment.bottomRight;
 
 // ----------> METHOD 1 USING NAMED ARGUMENTS ----->
@@ -29,10 +33,10 @@ class GradientContainer extends StatelessWidget {
             end: endAlignment,
           ),
         ),
-        child: const Center(
-            // Center widget from Flutter docs
-            child: TextStyles("Hello World!"),
-          ),
+        child: Center(
+            // Center/Image widget from Flutter docs
+            child: Image.asset('assets/dice-1.png', width: 200,),
+            ),
    );
   }
 }
