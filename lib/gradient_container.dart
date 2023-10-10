@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:dice_roller/text_styles.dart';
 
 //---> Dart's an object oriented language
 // Define custom widgets as classes
 // StatelessWidget comes from flutter import package
 class GradientContainer extends StatelessWidget {
-  const GradientContainer({super.key}); //super refers to the parent class (?) this is a CONSTRUCTOR FUNCTION
+  const GradientContainer(
+      {super.key}); //super refers to the parent class (?) this is a CONSTRUCTOR FUNCTION
   // const GradientContainer({key}): super({key: key}) ^ refactored
   // The key parameter is often used for uniquely identifying widgets, and you can provide a key when creating instances of widgets
 
@@ -23,13 +25,7 @@ class GradientContainer extends StatelessWidget {
           end: Alignment.bottomRight,
         ),
       ),
-      child: const Center(
-        // Center widget from Flutter docs
-        child: Text(
-          "Hello World!",
-          style: TextStyle(color: Colors.white, fontSize: 28),
-        ),
-      ),
+      child: const TextStyles()
     );
   }
 }
