@@ -1,10 +1,12 @@
+import 'dart:math';
 import 'package:flutter/material.dart';
+
+final randomizer = Random();
 
 class DiceRoller extends StatefulWidget {
   // accepting the key parameter and forward it to the superclass {Stateful Widget}
   // widget is constant so we add 'const'
   const DiceRoller({super.key}); //constructor function
-
   @override
   // informing dart which part of state we're watching
   State<StatefulWidget> createState() {
@@ -14,11 +16,11 @@ class DiceRoller extends StatefulWidget {
 
 // the _ means this class is private - only accessible through this file
 class _DiceRollerState extends State<DiceRoller> {
-  var activediceimage = 'assets/dice-1.png';
+  var currentDiceRoll = 2;
 
   void rollDice() {
     setState(() {
-      activediceimage = 'assets/dice-2.png';
+      currentDiceRoll = randomizer.nextInt(6) + 1; //generates a random number between 1 and 6
     });
   }
 
@@ -29,7 +31,7 @@ class _DiceRollerState extends State<DiceRoller> {
       mainAxisSize: MainAxisSize.min,
       children: [
         Image.asset(
-          activediceimage,
+          'assets/dice-$currentDiceRoll.png',
           width: 200,
         ),
         // const SizedBox(height: 20), //creating an empty widget box in between image and text
