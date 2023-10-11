@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import '/dice_roller.dart';
 
 // 'final' keyword affects individual variables, while 'const' affects the entire object or value to which it's applied
 
@@ -33,10 +33,10 @@ class GradientContainer extends StatelessWidget {
             end: endAlignment,
           ),
         ),
-        child: Center(
+        child: const Center(
             // Center/Image widget from Flutter docs
-            child: Image.asset('assets/dice-1.png', width: 200,),
-            ),
+          child: DiceRoller()
+        ),
    );
   }
 }
