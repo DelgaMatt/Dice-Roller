@@ -1,5 +1,7 @@
 # Dice-Roller
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ![License Badge](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+  ![License Badge](https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white)
   ## Description
   A simple mobile application that allows you to accurately roll a dice. This Application is build with Dart and Flutter.
   ## Table of Contents
