@@ -6,7 +6,7 @@ final randomizer = Random();
 class DiceRoller extends StatefulWidget {
   // accepting the key parameter and forward it to the superclass {Stateful Widget}
   // widget is constant so we add 'const'
-  const DiceRoller({super.key}); //constructor function
+  const DiceRoller({super.key}); //constructor function - executed when we create a class to create object in class
   @override
   // informing dart which part of state we're watching
   State<StatefulWidget> createState() {

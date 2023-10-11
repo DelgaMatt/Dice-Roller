@@ -1,16 +1,28 @@
-# dice_roller
+# Dice-Roller
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  ## Description
+  A simple mobile application that allows you to accurately roll a dice. This Application is build with Dart and Flutter.
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribute](#contributing)
+  - [License](#license)
+  - [Questions?](#questions)
 
-A new Flutter project.
+  ## Installation
+  To install and use this application, clone this github repo onto your local system. In your code editor, connect a device and run the application.
+  ## Usage
+  Simply click 'Roll the Dice'!
 
-## Getting Started
+  ![Simulator Screenshot - iPhone 14 Pro Max - 2023-10-11 at 13 42 07](https://github.com/DelgaMatt/Dice-Roller/assets/115049801/e9f51079-b95e-41b9-9de8-40068650cefe)
 
-This project is a starting point for a Flutter application.
+  ## License
+  This app is covered under the [MIT License](https://opensource.org/licenses/MIT)<br>
+  Copyright (C) Matthew Delgado 2023
+  ## Contributing
+  Created by: DelgaMatt
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+If you wish to add or contribute to this project, please fork the project repository onto your github account.
+  ## Questions
+  View this project repository on [Github](https://github.com/DelgaMatt)<br>
+  If you have any further questions about the application or how you can contribute, you can reach me by email at: matthewrdelgado@gmail.com
